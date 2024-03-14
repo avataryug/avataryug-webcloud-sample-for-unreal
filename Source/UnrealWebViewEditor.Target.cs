@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class MyWebView5TestTarget : TargetRules
+public class UnrealWebViewEditorTarget : TargetRules
 {
-	public MyWebView5TestTarget(TargetInfo Target) : base(Target)
+	public UnrealWebViewEditorTarget( TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V4;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
-		ExtraModuleNames.Add("MyWebView5Test");
+		ExtraModuleNames.Add("UnrealWebView");
 	}
 }

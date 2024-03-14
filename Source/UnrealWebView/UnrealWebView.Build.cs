@@ -2,16 +2,15 @@
 
 using UnrealBuildTool;
 
-public class MyWebView5Test : ModuleRules
+public class UnrealWebView : ModuleRules
 {
-	public MyWebView5Test(ReadOnlyTargetRules Target) : base(Target)
+	public UnrealWebView(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore","WebBrowser" });
-		// PrivateDependencyModuleNames.AddRange(new string[] { "WebBrowser" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-	
+		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
