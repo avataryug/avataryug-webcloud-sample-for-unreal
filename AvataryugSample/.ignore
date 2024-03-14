@@ -1,0 +1,14 @@
+.git
+.vs
+.vscode
+Content
+DerivedDataCache
+Intermediate
+Saved
+Script
+Plugins/Avataryug/Content
+Plugins/Avataryug/Intermediate
+Plugins/glTFRuntime/Content
+Plugins/glTFRuntime/Intermediate
+Plugins/glTFRuntimeDraco/Content
+Plugins/glTFRuntimeDraco/Intermediate
